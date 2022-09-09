@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://v2n12aea78nn"]
+
+[ext_resource type="Script" path="res://pythonlike.gd" id="1_10t6b"]
+
+[node name="Node2d" type="Node2D"]
+
+[node name="Control" type="Control" parent="." node_paths=PackedStringArray("Triangle")]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_left = 2.0
+offset_right = 42.0
+offset_bottom = 40.0
+script = ExtResource("1_10t6b")
+Triangle = NodePath("../Mrs_Houts")
+
+[node name="Mrs_Houts" type="Polygon2D" parent="."]
+position = Vector2(-21.9999, 65)
+scale = Vector2(10.025, 15.8)
+polygon = PackedVector2Array(24, 7, 44, 22, 4, 22)
