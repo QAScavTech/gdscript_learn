@@ -1,0 +1,1 @@
+start engine/bin/godot.windows.opt.tools.x86_64.exe -e app/project.godot

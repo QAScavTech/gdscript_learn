@@ -10,7 +10,6 @@ config_version=5
 
 [application]
 
-config/name="GDScript code"
-run/main_scene="res://persistent.tscn"
+config/name="plsdontdieagain"
 config/features=PackedStringArray("4.0", "Vulkan Clustered")
 config/icon="res://icon.svg"
