@@ -10,7 +10,8 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_jmh3c")
-Triangle = NodePath("../Polygon2d")
+Triangle = NodePath("../Mrs_Houts")
 
-[node name="Polygon2d" type="Polygon2D" parent="."]
-polygon = PackedVector2Array(18, 23, 18, 23, 88, 129, 158, 24)
+[node name="Mrs_Houts" type="Polygon2D" parent="."]
+position = Vector2(62, 82)
+polygon = PackedVector2Array(-54, 18, 0, -30, 55, 18)
